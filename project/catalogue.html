@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="UTF-8"> 	
+	<title>the best rifles and shot guns</title>
+	
+	<meta name="description" content="EXCLUSIVE STORE FOR GUNS AND RIFLES">
+	
+	<meta name="Sharath koppu" content="RIFLES AND SHOTGUN SALES">
+	
+	<meta name="robots" content="noindex, nofollow">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon.png" type="image/png">
+
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="project.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <script src="index.js">
+    </script>
+</head>
+<body onload="verifyUserLogin()">
+    <!--HEADER STARTS HERE-->
+    <header class="head">
+        <img src="images/logo.jpg" alt= "logo of the page" title="logo" ><h1>THE GUN FACTORY&copy;</h1>
+        <h2> WE ONLY PLAY WITH SHOTGUNS AND RIFLES</h2>
+    </header>
+
+    <nav> <!--NAVBAR STARTS HERE-->
+        <div class="navi">
+            <a href="home.html">HOME</a>
+            <a href="catalogue.html">CATALOGUE</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="compare.html">COMPARE</a>
+            <a href="#" onclick="logout()">LOGOUT</a>
+          </div>
+        
+    </nav>
+
+    <main>
+        <section id="assault"><!--SECTION FOR CATAGEORY1-->
+            <div class="product"><!--PRODUCT IMAGE-->
+                <img src='images/DDM4V11.jpg' alt="DDM4v11" >
+                <h3> MODEL NAME : DDM411</h3>
+                <div class="price">$2000</div>
+                <div class="view">
+                    <a href=product.html> VIEW COMPLETE DETAILS</a>
+                </div>
+                    
+            </div>
+
+            <div class="product">
+                <img src="images/SCAR3.jpg" alt="FN_SCAR" >
+                <h3> MODEL NAME : FN_SCAR</h3>
+                <div class="price">$2040</div>
+                <div class="view">
+                    <a href="catalogue.html"> VIEW COMPLETE DETAILS</a>
+                </div>
+                    
+            </div>
+            <div class="product">
+                <img src='images/M16A4.jpg' alt="M16A4" >
+                <h3> MODEL NAME : M16A4</h3>
+                <div class="price">$2500</div>
+                <div class="view">
+                    <a href="catalogue.html"> VIEW COMPLETE DETAILS</a>
+                </div>     
+            </div>
+        </section>
+
+
+        <section id="shotgun"><!--SECTION FOR CATAGEORY-2-->
+            <div class="product">
+                <img src="images/shot1.jpg" alt="PUMP Action" >
+                <h3> MODEL NAME : Pump Action</h3>
+                <div class="price">$1900</div>
+                <div class="view">
+                <a href="catalogue.html"> VIEW COMPLETE DETAILS</a>
+            </div>
+                
+            </div>
+
+            <div class="product">
+                 <img src="images/shot2.jpg" alt="Mini SHOTGUN" >
+                 <h3> MODEL NAME : Mini Shotgun</h3>
+                 <div class="price">$1500</div>
+                <div class="view">
+                <a href=gallery.html> VIEW COMPLETE DETAILS</a></div>
+                
+            </div>
+            
+            <div class="product">
+                <img src="images/shot4.png" alt="BULL-UP" >
+                <h3> MODEL NAME : BULL-UP</h3>
+                <div class="price">$2900</div>
+                 <div class="view">
+                <a href=gallery.html> VIEW COMPLETE DETAILS</a></div>
+                
+            </div>
+        </section>
+    </main> <!--MAIN ENDING HERE-->
+
+     <!--FOOTER BEGINS HERE-->
+     <footer class="foot" ><!--COMPANY ADDRESS -->
+        <div><p>GUN FACTORY &reg;</p>
+            <p> RUE CATHERINE, MONTREAL,QUEBEC</p></div>
+ 
+        <div id="icon"><!--SOCIAL MEDIA ICONS-->
+            <h5>FOLLOW US ON</h5>
+         <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+         <a href="https://twitter.com/explore" class="fa fa-twitter"></a>
+         <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+         </div>
+        
+         <div id="mail"><!--mailing and calling link-->
+            <a href="mailto:koppusharath123@gmail.com">
+         <img src="images/mail2.png" style="width:40px;" alt= "email" title="click to mail"
+             >mail us at</a><br>
+         <br>
+         <a href="tel:8106177424">
+         <img src="images/mobile.jpg" style="width:40px;" alt= "phone" title="click to call"
+         >phone us at 8106177424</a></div>
+     </footer><!--FOOTER ENDS HERE-->
+
+ </body>
+ </html>

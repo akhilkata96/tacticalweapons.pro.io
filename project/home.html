@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang=en>
+<head>
+<meta charset="UTF-8"> 	
+	<title>GUN FACTORY-Exclusive store for RIFLES</title>
+	
+	<meta name="description" content="EXCLUSIVE STORE FOR GUNS AND RIFLES">
+	
+	<meta name="Akhil Kata" content="RIFLES AND SHOTGUN SALES">
+	
+	<meta name="robots" content="noindex, nofollow">
+	
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="images/icon.png" type="image/png">
+
+    <link rel="stylesheet" href="project.css">
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <script src="index.js">
+    </script>
+
+</head>
+<body onload="verifyUserLogin()">
+    <!--HEADER STARTS HERE-->
+    <header class="head">
+        <img src="images/logo.jpg" alt= "logo of the page" title="logo" ><h1>THE GUN FACTORY&reg;</h1>
+        <h2> WE ONLY PLAY WITH SHOTGUNS AND RIFLES</h2>
+    </header>
+
+    <nav> <!--NAVBAR STARTS HERE-->
+        <div class="navi">
+            <a href="home.html">HOME</a>
+            <a href="catalogue.html">CATALOGUE</a>
+            <a href="gallery.html">GALLERY</a>
+            <a href="contact.html">CONTACT</a>
+            <a href="compare.html">COMPARE</a>
+            <a href="#" onclick="logout()">LOGOUT</a>
+          </div>
+        
+    </nav>
+
+    <main> <!--MAIN STARTS HERE-->
+         
+        <!--PAGE INTRODUCTION-->
+        <p id="intro">Firearms Specialists Since 1956The Leader in Quebec The oldest gun shop in Greater Montreal is also one of the biggest retailers of firearms in Canada. Dante offers the largest inventory available in Quebec. Hunting and sports shooting enthusiasts from Montreal and anywhere else will find all the equipment they need right here
+         We’ve Got A Wide Selection of New and Used Firearms For Purchase at Our Western Canadian Gun Shop. If You’ve Got Your PAL, See Restricted Firearms Canada. We Offer Coast to Coast Shipping (especially to Ontario) via Canada Post and Canpar (ammo) and We’ve Got Bulk Ammunition For Sale. If You Have Any Questions Or Would Like to Speak With Sales, Please Don’t Hesitate to Call
+             Gun Holsters and Rifle Cases Make Excellent Gifts This Holiday Season. We’re Looking Forward to Becoming The Best Source For Online Firearms and Ammunition in 2020. The Archangel M14, 1911, SKS, and AR-15 are some of the hot products right now. Leave a Product Review and Get a Deal on Your Second Gun Purchase.</p>   
+         <!--END OF PAGE INTRODUCTION-->
+         <hr>
+         
+        <section class="guns"> <!--SECTION STARTS HERE-->
+            <h2> CATEGORIES</h2>
+            <div class="cata"> <!--PRODUCT CATAGORIES-->
+                <a href="catalogue.html#shotgun">
+                <img src="images/shotgun1.png" alt="shotgun catageory">
+                <h3>  SHOTGUNS </h3>
+                </a>
+            </div>
+            <div>
+                <a href='catalogue.html#assault'>
+                <img src= "images/assaultrifle.png" alt=“ASSAULT”>
+                <h3> ASSAULT RIFLES</h3>
+                </a>
+            </div>
+            <div >
+                <a href="catalogue.html#assault">
+                <img src="images/hr1.png" alt="RIFLE catageory"> 
+                <h2>  RIFLES </h2>
+                </a>
+            </div>
+
+            <div >
+                <a href='catalogue.html#assault'>
+                <img src="images/sinperrilfe.png" alt="RIFLE catageory"> 
+                <h2>SNIPERS</h2>
+                </a>
+            </div>
+        </section> <!--SECTION ENDS HERE-->
+        <div id= gundata><!--DIVISION FOR CATAGEORY DESCRIPTIONS-->
+            <h3>SHOTGUNS </h3>
+            <p>A shotgun was originally a smoothbore firearm, which means that the inside of the barrel is not rifled but later rifled shotgun barrels and slugs become available. Preceding smoothbore firearms, such as the musket, were widely used by armies in the 18th century. The direct ancestor to the shotgun, the blunderbuss, was also used in a similar variety of roles from self-defense to riot control. It was often used by cavalry troops because of its generally shorter length and ease of use, as well as by coachmen for its substantial power. In the 19th century, however, these weapons were largely replaced on the battlefield with breechloading rifled firearms, which were more accurate over longer ranges. The military value of shotguns was rediscovered in the First World War, when American forces used 12-gauge pump action shotguns in close-quarters trench fighting to great effect. Since then, it has been used in a variety of roles in civilian, law enforcement, and military applications.</p>
+             <h3>ASSAULT RIFLES</h3>
+            <p>An assault rifle is a selective-fire rifle that uses an intermediate cartridge and a detachable magazine. Assault rifles were first put into mass production and accepted into widespread service during World War II. Though Western nations were slow to accept the assault rifle concept, by the end of the 20th century they had become the standard weapon in most of the world's armies, replacing full-powered rifles and sub-machine guns in most roles</p>
+             <h3>HUNTING RIFLES</h3>
+             <p>Since human beings are lacking in the natural weapons possessed by other predators, humans have a long history of making tools to overcome this shortcoming. The evolution of hunting weapons shows an ever-increasing ability to extend the hunter's reach, while maintaining the ability to produce disabling or lethal wounds, allowing the hunter to capture the game.
+
+                The spear was in use for hunting as early as five million years ago in hominid and chimpanzee societies, and its usage may go back even further. The spear gave the hunter the ability to kill large animals, at ranges as far as the hunter could throw the spear; the Roman pilum, for example, had a range of 30 metres (98 feet). Spear throwing devices such as the bâton de commandement, woomera, and atlatl extended that range even further by giving the hunter leverage to throw the spear faster and farther. The atlatl allowed a skilled user to throw a dart up to 100 metres (110 yards). Archaeological evidence of the atlatl has been found on all continents except for Antarctica. The atlatl was displaced starting in the late Paleolithic with the easier to make and use bow and arrow, which remains in common use today in both sporting and hunting. With the advent of accurate, reliable firearms, firearms became the weapon of choice. Each new evolution of hunting weapons extended the range and accuracy; a skilled hunter, with suitable equipment and good conditions, can take game at ranges of over 1,000 meters (1 km).
+                
+                Another hunting weapon, based on different principles than the spear, is the throwing stick. While at its simplest the throwing stick is just a heavy club thrown at the game, a well-designed throwing stick uses the principles of an airfoil shape and gyroscopic stability; the oldest of these dates back 200,000 years to ancient Poland. The kylie, for example, Australian hunting boomerang in use into modern times, uses the bent shape and a symmetric airfoil cross-section to provide stability and low drag for long, accurate throws. Kylies do not return (a good thing, since they are large, heavy, and dangerous) but smaller, lighter versions, the classic boomerang, exhibit the classic circular path that made the boomerang famous. Boomerangs, of both the non-returning and returning variety, have been found in many ancient cultures, ranging from Egypt to North America.
+                
+                Other early weapons used for hunting include the sling, which allows small stones or metal balls to be thrown at much higher velocities than the arm alone, and the blowgun. The South American blowgun's curare tipped darts, intended to paralyze small game, is very similar in function to modern capture guns, with the substitution of a barbiturate for the paralytic curare.</p>
+        </div>
+    </main><!--MAIN ENDS HERE-->
+
+    <!--FOOTER BEGINS HERE-->
+    <footer class="foot" ><!--COMPANY ADDRESS -->
+       <div><p>GUN FACTORY &reg;</p>
+           <p> RUE CATHERINE, MONTREAL,QUEBEC</p></div>
+
+       <div id="icon"><!--SOCIAL MEDIA ICONS-->
+           <h5>FOLLOW US ON</h5>
+        <a href="https://www.facebook.com/" class="fa fa-facebook"></a>
+        <a href="https://twitter.com/explore" class="fa fa-twitter"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram"></a>
+        </div>
+       
+        <div id="mail"><!--mailing and calling link-->
+           <a href="mailto:kata.akhil@gmail.com">
+        <img src="images/mail2.png" style="width:40px;" alt= "email" title="click to mail"
+            >mail us at</a><br>
+        <br>
+        <a href="tel:8106177424">
+        <img src="images/mobile.jpg" style="width:40px;" alt= "phone" title="click to call"
+        >phone us at 8106177424</a></div>
+    </footer><!--FOOTER ENDS HERE-->
+</body>
+</html>

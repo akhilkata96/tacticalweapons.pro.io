@@ -1,0 +1,20 @@
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,300italic,400italic,600' rel='stylesheet' type='text/css'>
+<link type="text/css" href="css/main.css" rel="stylesheet">
+<script src="https://www.gstatic.com/firebasejs/8.0.1/firebase-app.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-database.js"></script>
+    <script defer src="https://www.gstatic.com/firebasejs/8.0.1/firebase-auth.js"></script>
+    <script src="login.js">
+</script>
+<body style="background-image: url('images/logo.jpg');">
+<div class="testbox">
+  <h1>Login</h1>  
+  <form action="/">
+  <label id="icon" for="name"><i class="icon-envelope "></i></label>
+  <input type="text" name="name" id="email" placeholder="Email" required/>
+  <label id="icon" for="name"><i class="icon-shield"></i></label>
+  <input type="password" name="name" id="password" placeholder="Password" required/>
+  <a href="#" onclick= "logIn()" class="button">Login</a>
+  <a href="signup.html" class="button1">Create Account</a>
+  </form>
+</div>
+</body>
